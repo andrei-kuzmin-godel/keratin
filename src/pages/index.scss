@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
+
+:root {
+  --nav-background: rgba(0, 214, 170, .85);
+  --main-background: rgba(40, 44, 52, 1);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  section {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+}

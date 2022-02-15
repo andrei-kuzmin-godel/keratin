@@ -1,4 +1,7 @@
 module.exports = {
-  pathPrefix: "/keratin",
-  plugins: [],
+  // pathPrefix: "/keratin",
+  plugins: [
+    'gatsby-plugin-sass',
+    'gatsby-plugin-anchor-links'
+  ],
 }
